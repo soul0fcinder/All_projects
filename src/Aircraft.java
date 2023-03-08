@@ -6,5 +6,5 @@ public class Aircraft {
         System.out.println("I will buy");
     }
 
-    int aircraftSpeed = 0;
+    int aircraftSpeed = 1;
 }
