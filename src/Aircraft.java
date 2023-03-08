@@ -6,5 +6,6 @@ public class Aircraft {
         System.out.println("I will buy");
     }
 
+    String text = "bug_fixed";
     int aircraftSpeed = 1;
 }
