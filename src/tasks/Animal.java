@@ -14,6 +14,10 @@ package tasks;
             this.eats = food;
         }
 
+        public void walk(){
+            System.out.println("I'm going to kitchen");
+        }
+
         public void sound(){
         }
 
