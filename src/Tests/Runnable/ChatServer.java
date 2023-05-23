@@ -25,11 +25,9 @@ public class ChatServer {
     public void run() {
         while(true) {
             System.out.println("Waiting...");
-            // ждем клиента из сети
             try {
                 Socket socket = serverSocket.accept();
                 System.out.println("Client connected!");
-                // создаем клиента на своей стороне
                 clients.add(new Client(socket, this));
             } catch (IOException e) {
                 e.printStackTrace();

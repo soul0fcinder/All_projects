@@ -1,3 +1,5 @@
+package Tests.Runnable;
+
 import java.awt.Color;
 import java.awt.Insets;
 import java.awt.event.KeyEvent;
